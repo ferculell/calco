@@ -1,2 +1,2 @@
-# calco
+# CALCO
 React Calculator Project
