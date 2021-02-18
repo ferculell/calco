@@ -1,13 +1,90 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #ddd;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-family: 'Teko', sans-serif;
+  color: #111;
+  margin: auto;
+  padding: 5px;
+  max-width: 400px;
+}
+
+h2 {
+  background-color: #333;
+  color: #e74c3c;
+  border-color: black;
+  font-family: 'Orbitron', sans-serif;
+  text-align: right;
+  text-shadow: 0 0 15px #e74c3c;
+  padding: 5px 15px 5px 15px;
+  margin: 2% 10% 2% 10%;
+  border-style: inset;
+  max-width: 300px;
+}
+
+button {
+  display: inline-block;
+  width: 95%;
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #333;
+  background-color: beige;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+button:active {
+  background-color: #ccc;
+  box-shadow: 0 5px #666;
+  transform: translate(4px, 4px);
+}
+
+.op {
+  background-color: steelblue;
+}
+
+.eq {
+  background-color: darkorange;
+}
+
+.cl {
+  background-color: tomato;
+}
+
+.row-margin {
+  margin: 9px;
+}
+
+#device{
+  background-color: khaki;
+  padding: 15px;
+  max-width: 430px;
+  margin: auto;
+  margin-top: 3%;
+  border: 1px solid darkkhaki;
+}
+
+#display {
+  background-color: #111;
+  border-radius: 40px 40px 0 0;
+  margin: auto;
+  padding: 5px;
+  max-width: 400px;
+}
+
+#buttonSet {
+  background-color: #333;
+  padding: 10px;
+  margin: auto;
+  max-width: 400px;
 }
