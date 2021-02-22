@@ -21,6 +21,8 @@ h2 {
   margin: 2% 10% 2% 10%;
   border-style: inset;
   max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 button {
