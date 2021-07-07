@@ -50,6 +50,8 @@ function App() {
         case "÷":
           setFormula(formula.slice(0, -2) + "/");
           break;
+        default:
+          setDisplayNumber("0");
       }
     }
     // The next block manages the event of 2 or more operators entered consecutively. The operation performed should be the last operator entered (excluding the negative (-) sign).
@@ -65,6 +67,8 @@ function App() {
         case "÷":
           setFormula(formula.slice(0, -1) + "/");
           break;
+        default:
+          setDisplayNumber("0");
       }
     }
     // The next block manages the activation of a negative number.
@@ -90,6 +94,8 @@ function App() {
         case "÷":
           setFormula(formula + displayNumber + "/");
           break;
+        default:
+          setDisplayNumber("0");
       }
     }
   }
